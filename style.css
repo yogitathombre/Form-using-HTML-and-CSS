@@ -1,0 +1,386 @@
+body
+{
+    background-image: url(https://images.pexels.com/photos/1109543/pexels-photo-1109543.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(17, 0, 255, 0.637);
+    background-blend-mode: overlay;
+    font-weight: 700;
+    
+     
+}
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+
+}
+
+header
+{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+
+    
+    
+}
+header h3
+{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif; 
+    position: relative;
+    top: 22px;
+    
+    
+}
+header p
+{
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+}
+label
+{
+    color: white;
+}
+section
+{
+    background-color: rgba(0, 38, 255, 0.308);
+    width: 500px;
+    height: 900px;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    left: 250px;
+    font-weight: 700px;
+    
+}
+label[for="fname"]
+{
+    position: absolute;
+    top: 20px;
+    left: 31px;
+    
+}
+.name
+{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    height: 1.4rem;
+    width: 26.7rem;
+    border-radius: 4px;
+    border: none;
+}
+label[for="Email"]
+{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    
+}
+.femail
+{
+    position: absolute;
+    left: 30px;
+    top: 105px;
+    height: 1.4rem;
+    width: 26.7rem;
+    border-radius: 4px;
+    border: none;
+   
+}
+label[for="Age"]
+{
+    position: absolute;
+    left: 30px;
+    top: 140px ;
+
+}
+.fage
+{
+    position: absolute;
+    left: 30px ;
+    top: 165px ;
+    height: 1.4rem;
+    width: 26.7rem;
+    border-radius: 4px;
+    border: none;
+    
+}
+.para1
+{
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+.role
+{
+    position: absolute;
+    left: 30px;
+    top: 240px;
+    border: none;
+    height: 1.4rem;
+    width: 26.7rem;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: gray;
+    padding-left: 7px;
+}
+.para2
+{
+    position: absolute;
+    top: 258px;
+    left: 30px;
+    color: white;
+}
+.radio1
+{
+    position: relative;
+    top: 108px;
+    left: 30px;
+    display:block ;
+}
+.radio2
+{
+    position: relative;
+    top: 61px;
+    left: 30px;
+    display:block;
+}
+.radio3
+{
+    position: relative;
+    top: 16px;
+    left: 30px;
+    display:block;
+}
+.head1
+{
+    position: relative;
+    top: 71px;
+    right: 161px;
+}
+.head2
+{
+    position: relative;
+    top: 24px;
+    right: 170px;
+}
+.head3
+{
+    position: relative;
+    top: -21px;
+    right: 175px; ;
+}
+.para3
+{
+    position: absolute;
+    top: 373px;
+    left: 30px;
+    color: white;
+}
+.option
+{
+   position: absolute;
+   top: 419px;
+   left: 30px;
+   border: none;
+    height: 1.4rem;
+    width: 26.7rem;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: grey;
+    padding-left: 6px;
+}
+.para4
+{
+    position: absolute;
+    top: 437px ;
+    left: 30px;
+    color: white;
+}
+.checkbox1
+{
+    position: absolute;
+    top: 486px;
+    left: 33px;
+
+}
+h3.check1
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 465px;
+       
+}
+.checkbox2
+{
+    position: absolute;
+    top: 513px;
+    left: 33px;
+
+}
+h3.check2
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 492px;
+       
+}
+.checkbox3
+{
+    position: absolute;
+    top: 541px;
+    left: 33px
+}
+h3.check3
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 519px;
+       
+}
+.checkbox4
+{
+    position: absolute;
+    top: 567px;
+    left: 33px;
+}
+h3.check4
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 546px;
+       
+}
+.checkbox4
+{
+    position: absolute;
+    top: 567px;
+    left: 33px;
+}
+h3.check4
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 546px;
+       
+}
+.checkbox4
+{
+    position: absolute;
+    top: 567px;
+    left: 33px;
+}
+h3.check4
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 546px;
+       
+}
+.checkbox5
+{
+    position: absolute;
+    top: 594px;
+    left: 33px;
+}
+h3.check5
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 573px;
+       
+}
+.checkbox6
+{
+    position: absolute;
+    top: 623px;
+    left: 33px;
+}
+h3.check6
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 601px;
+       
+}
+.checkbox7
+{
+    position: absolute;
+    top: 649px;
+    left: 33px;
+}
+h3.check7
+{
+    color: white;
+    position: absolute;
+    left: 58px;
+    top: 628px;
+       
+}
+.para5
+{
+    position: absolute;
+    top: 662px;
+    left: 33px;
+    color: white;
+}
+textarea
+{
+    position: absolute;
+    top: 711px;
+    left: 33px;
+    width: 26.7rem;
+    box-sizing: border-box;
+    height: 6rem;
+    color: grey;
+    padding-left: 7px;
+    padding-top: 11px;
+}
+button
+{
+    position: absolute;
+    top: 830px;
+    left: 33px;
+    width: 26.7rem;
+    height: 2rem; 
+    background-color: teal;
+    text-decoration: none;
+    border: none;
+    color: whitesmoke;
+    
+}
+input::placeholder
+{
+    color: grey;
+    padding-left: 3px;
+}
+select::placeholder
+{
+    color: grey;
+    padding-left: 3px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <header> 
+    <h3>Freecodecamp Survey form</h3>
+    <P>Thank you for taking the time to help us improve the platform</P>
+
+</header>
+<form> 
+    <section> 
+        <label for="fname"> Name</label><br>
+        <input type="text" id="fname" class="name" placeholder=" Enter your name" required><br><br>
+    
+        <label for="Email">Email</label><br><br>
+        <input type="email" id="Email" class="femail" placeholder=" Enter your email"required ><br><br>
+    
+        <label for="Age">Age</label><br><br>
+        <input type="text" id="Age" class="fage" placeholder="  Age"required><br><br></form> 
+
+    <p class="para1">which option will describe your current role?</p>
+    <select class="role" placeholder="select current role">
+         <option value="">select current role</option>
+         <option value="">full time job</option>
+         <option value="">full time learner</option>
+         <option value=""> prefer no to say</option>
+         <option value="">other </option>
+    </select>
+    <p  class="para2">would you recommand free code to your friend?</p>
+
+<div id="radio"> 
+    <label> 
+<input type="radio" class="radio1"><h4 class="head1">definitely</h4>
+<input type="radio" class="radio2"><h4 class="head2">maybe</h4>
+<input type="radio" class="radio3"><h4 class="head3">sure</h4></label>
+</div>
+ 
+<p class="para3">what is your favourite feature of freecodecamp?</p>
+<select class="option" placeholder="select an option">
+    <option value="">select an option</option>
+    <option value="">challenges</option>
+    <option value="">projects</option>
+    <option value="">community</option>
+    <option value=""> opensource</option>
+</select>
+<p class="para4">what would you like to improved?(check all that apply)</p>
+<input type="checkbox" class="checkbox1"><h3 class="check1">frontend projects</h3>
+<input type="checkbox" class="checkbox2"><h3 class="check2">backend projects</h3>
+<input type="checkbox" class="checkbox3"><h3 class="check3">data visualisation</h3>
+<input type="checkbox" class="checkbox4"><h3 class="check4">challenges</h3>
+<input type="checkbox" class="checkbox5"><h3 class="check5">open source community</h3>
+<input type="checkbox" class="checkbox6"><h3 class="check6">gitter help room</h3>
+<input type="checkbox" class="checkbox7"><h3 class="check7">videos</h3>
+
+<p class="para5">Any comments or suggestion?</p>
+<textarea >Enter your Comments Here... </textarea>
+<button>submit</button>
+</section>
+    </div>
+     
+</body>
+</html>
